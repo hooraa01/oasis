@@ -1,0 +1,101 @@
+
+body {
+    background-color: #000000;
+    color: #faf6f6;
+    font-family: 'Arial', sans-serif;
+    background-color: #733d44;
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #decece;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+a {
+    color: #913f3f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-group label {
+    color: #ae9191;
+}
+
+.form-control {
+    background-color: #a88686;
+    color: #e1d1d1;
+    border: 1px solid #451e1e;
+}
+
+.form-control:focus {
+    background-color: #895656;
+    border-color: #0c0c0c;
+    color: #ded1d1;
+}
+
+.btn-primary {
+    background-color: #0b0909;
+    border: 1px solid #141212;
+    color: #b48787;
+}
+
+.btn-primary:hover {
+    background-color: #121010;
+    border-color: #090808;
+}
+
+.alert {
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #4f924e;
+    color: #ffffff;
+}
+
+.alert-danger {
+    background-color: #330f12;
+    color: #ffffff;
+}
+
+.alert-warning {
+    background-color: #d3e58c;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #160909;
+    border-bottom: 2px solid #9e4a4a;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #bb7575;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #723131;
+}
+
+.login{
+    background-color: #895656;
+    text-align: center;
+    padding: 50%;
+
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
