@@ -1,0 +1,82 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font-size: 100%;
+        }
+.container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+h1 {
+            font-size: 2.5em;
+        }
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    }
+
+h3 {
+            margin-top: 0;
+            font-weight: 300;
+            font-style: italic;
+        }
+.bio {
+            margin-top: 20px;
+            max-width: 100%;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+.bio p {
+            line-height: 1.6;
+        }
+.credit {
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #bbb;
+        }
+hr {
+            border: 0;
+            height: 1px;
+            background: #444;
+            margin: 40px 0;
+        }
+img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            border-radius: 50%;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .bio {
+                padding: 10px;
+            }
+            .credit {
+                font-size: 0.7em;
+            }
+        }
+
+@media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .bio {
+                padding: 5px;
+            }
+            .credit {
+                font-size: 0.6em;
+            }
+        }
